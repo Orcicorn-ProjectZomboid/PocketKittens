@@ -1,0 +1,19 @@
+Recipe_EN = {
+	Recipe_CreatePocketKittenBlack = "Place kitten in pocket",
+    Recipe_CreatePocketKittenCalico = "Place kitten in pocket",
+    Recipe_CreatePocketKittenGray = "Place kitten in pocket",
+    Recipe_CreatePocketKittenGrayStriped = "Place kitten in pocket",
+    Recipe_CreatePocketKittenOrange = "Place kitten in pocket",
+    Recipe_CreatePocketKittenTuxedo = "Place kitten in pocket",
+    Recipe_CreatePocketKittenWhite = "Place kitten in pocket",
+
+    Recipe_RemovePocketKittenBlack = "Take kitten out of pocket",
+    Recipe_RemovePocketKittenCalico = "Take kitten out of pocket",
+    Recipe_RemovePocketKittenGray = "Take kitten out of pocket",
+    Recipe_RemovePocketKittenGrayStriped = "Take kitten out of pocket",
+    Recipe_RemovePocketKittenOrange = "Take kitten out of pocket",
+    Recipe_RemovePocketKittenTuxedo = "Take kitten out of pocket",
+    Recipe_RemovePocketKittenWhite = "Take kitten out of pocket",
+
+    Recipe_ProclaimYourLoveForKitties = "Proclaim your love for kitties",
+}

@@ -1,0 +1,20 @@
+ItemName_EN = {
+    ItemName_PocketKitten.KittenBlack = "Black Kitten",
+    ItemName_PocketKitten.KittenCalico = "Calico Kitten",
+    ItemName_PocketKitten.KittenGray = "Gray Kitten",
+    ItemName_PocketKitten.KittenGrayStriped = "Striped Gray Kitten",
+    ItemName_PocketKitten.KittenOrange = "Orange Kitten",
+    ItemName_PocketKitten.KittenTuxedo = "Tuxedo Kitten",
+    ItemName_PocketKitten.KittenWhite = "White Kitten",
+
+    ItemName_PocketKitten.PocketKittenBlack = "Black Pocket Kitten",
+    ItemName_PocketKitten.PocketKittenCalico = "Calico Pocket Kitten",
+    ItemName_PocketKitten.PocketKittenGray = "Gray Pocket Kitten",
+    ItemName_PocketKitten.PocketKittenGrayStriped = "Striped Gray Pocket Kitten",
+    ItemName_PocketKitten.PocketKittenOrange = "Orange Pocket Kitten",
+    ItemName_PocketKitten.PocketKittenTuxedo = "Tuxedo Pocket Kitten",
+    ItemName_PocketKitten.PocketKittenWhite = "White Pocket Kitten",
+
+    ItemName_PocketKitten.TShirtILoveKitties = "I Love Kitties T-Shirt",
+    ItemName_PocketKitten.TShirtCatFace = "Cat Face T-Shirt",
+}

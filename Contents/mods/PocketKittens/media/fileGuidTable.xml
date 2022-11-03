@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+    <files>
+        <path>media/clothing/clothingItems/PocketKitten_Black.xml</path>
+        <guid>pocketki-tten-blck-8304-a461138c6824</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/PocketKitten_Calico.xml</path>
+        <guid>pocketki-tten-clco-81fd-68c39f3857e3</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/PocketKitten_Gray.xml</path>
+        <guid>pocketki-tten-gray-a554-62d6eb764572</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/PocketKitten_GrayStriped.xml</path>
+        <guid>pocketki-tten-grys-8630-43ba59de3aa3</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/PocketKitten_Orange.xml</path>
+        <guid>pocketki-tten-orng-b1a2-6e260eab8f23</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/PocketKitten_Tuxedo.xml</path>
+        <guid>pocketki-tten-tuxe-a5f9-2ce358bb504e</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/PocketKitten_White.xml</path>
+        <guid>pocketki-tten-whit-9a0d-6875f636e6cc</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/TShirt_ILoveKitties.xml</path>
+        <guid>pocketki-tten-shrt-0001-b7c400a664a2</guid>
+    </files>
+</fileGuidTable>

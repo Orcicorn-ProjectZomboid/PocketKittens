@@ -1,0 +1,21 @@
+VERSION = 1,
+
+option PocketKitten.ReduceBoredom = 
+{
+    type = integer,
+    min = 0,
+    max = 100,
+    default = 12,
+    page = PocketKitten,
+    translation = PocketKitten_ReduceBoredom,
+}
+
+option PocketKitten.ReduceUnhappiness =
+{
+    type = integer,
+    min = 0,
+    max = 100,
+    default = 12,
+    page = PocketKitten,
+    translation = PocketKitten_ReduceUnhappyness,
+}

@@ -1,0 +1,37 @@
+module Base {
+    model PocketKittenBlack {
+        mesh = WorldItems/pocketkitten,
+        texture = WorldItems/pocketkitten_black,
+        scale = 0.040,
+    }
+    model PocketKittenCalico {
+        mesh = WorldItems/pocketkitten,
+        texture = WorldItems/pocketkitten_calico,
+        scale = 0.040,
+    }
+    model PocketKittenGray {
+        mesh = WorldItems/pocketkitten,
+        texture = WorldItems/pocketkitten_gray,
+        scale = 0.040,
+    }
+    model PocketKittenGrayStriped {
+        mesh = WorldItems/pocketkitten,
+        texture = WorldItems/pocketkitten_graystriped,
+        scale = 0.040,
+    }
+    model PocketKittenOrange {
+        mesh = WorldItems/pocketkitten,
+        texture = WorldItems/pocketkitten_orange,
+        scale = 0.040,
+    }
+    model PocketKittenTuxedo {
+        mesh = WorldItems/pocketkitten,
+        texture = WorldItems/pocketkitten_tuxedo,
+        scale = 0.040,
+    }
+    model PocketKittenWhite {
+        mesh = WorldItems/pocketkitten,
+        texture = WorldItems/pocketkitten_white,
+        scale = 0.040,
+    }
+}
