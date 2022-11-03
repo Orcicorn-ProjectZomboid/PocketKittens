@@ -115,4 +115,4 @@ description=
 description=[img]https://raw.githubusercontent.com/Orcicorn-ProjectZomboid/.github/master/images/like_favorite.gif[/img] [url=https://ko-fi.com/orcicorn][img]https://raw.githubusercontent.com/Orcicorn-ProjectZomboid/.github/master/images/kofi.png[/img][/url]
 description=[/quote]
 tags=Build 41;Clothing/Armor;Items;Models;Multiplayer;Silly/Fun
-visibility=unlisted
+visibility=public
