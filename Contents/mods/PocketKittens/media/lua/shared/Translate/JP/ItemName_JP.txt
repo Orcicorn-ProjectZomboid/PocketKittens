@@ -1,0 +1,20 @@
+ItemName_JP = {
+    ItemName_PocketKitten.KittenBlack = "黒い子猫",
+    ItemName_PocketKitten.KittenCalico = "三毛猫の子猫",
+    ItemName_PocketKitten.KittenGray = "グレーの子猫",
+    ItemName_PocketKitten.KittenGrayStriped = "グレーのしましまの子猫",
+    ItemName_PocketKitten.KittenOrange = "オレンジの子猫",
+    ItemName_PocketKitten.KittenTuxedo = "タキシードの子猫",
+    ItemName_PocketKitten.KittenWhite = "白い子猫",
+
+    ItemName_PocketKitten.PocketKittenBlack = "黒いポケット猫",
+    ItemName_PocketKitten.PocketKittenCalico = "ポケット三毛猫",
+    ItemName_PocketKitten.PocketKittenGray = "グレーのポケット猫",
+    ItemName_PocketKitten.PocketKittenGrayStriped = "しましまのポケット猫",
+    ItemName_PocketKitten.PocketKittenOrange = "オレンジのポケット猫",
+    ItemName_PocketKitten.PocketKittenTuxedo = "タキシードのポケット猫",
+    ItemName_PocketKitten.PocketKittenWhite = "白いポケット猫",
+
+    ItemName_PocketKitten.TShirtILoveKitties = "I Love Kitties　Tシャツ",
+    ItemName_PocketKitten.TShirtCatFace = "猫の顔のTシャツ",
+}
