@@ -3,18 +3,37 @@ module PocketKitten {
         Base
     }
 
-    /* Black Kitten */
+    /* Black Kitten (Stray -> Pet -> Pocket) */
     item KittenBlack {
-        DisplayCategory = Household,
+        Category = Food,
+        DisplayCategory = Food,
+        Weight = 1.0,
+        DisplayName = Stray Black kitten,
+        Icon = KittenBlack,
+        WorldStaticModel = PocketKittenBlack,
+        Type = Food,
+        CantBeFrozen = TRUE,
+        HungerChange = -10,
+        UnhappyChange = 65,
+        DaysFresh = 0,
+        DaysTotallyRotten = 30,
+        Calories = 340.0,
+        Carbohydrates = 0,
+        Lipids = 15,
+        Proteins = 84.8,
+        CustomEatSound = EatingDeadAnimal,
+        Tags = transferweight,
+    }
+    item PetKittenBlack {
+        Category = Normal,
+        DisplayCategory = Kittens,
         Weight = 1.0,
         DisplayName = Black kitten,
         Icon = KittenBlack,
         WorldStaticModel = PocketKittenBlack,
-        Type = Food,
-        HungerChange = -10,
-        CantBeFrozen = TRUE,
-        UnhappyChange = 100,
+        Type = Normal,
         Tooltip = Tooltip_KittenFriend,
+        Tags = transferweight,
     }
     item PocketKittenBlack {
         DisplayCategory = Accessory,
@@ -29,21 +48,39 @@ module PocketKitten {
         WorldStaticModel = PocketKittenBlack,
         CanHaveHoles = false,
         Tooltip = Tooltip_PocketKitten,
-        Tags = pocketkitten,
+        Tags = pocketkitten;transferweight,
     }
 
     /* Calico Kitten */
     item KittenCalico {
-        DisplayCategory = Household,
+        DisplayCategory = Food,
+        Weight = 1.0,
+        DisplayName = Stray calico kitten,
+        Icon = KittenCalico,
+        WorldStaticModel = PocketKittenCalico,
+        Type = Food,
+        CantBeFrozen = TRUE,
+        HungerChange = -10,
+        UnhappyChange = 65,
+        DaysFresh = 0,
+        DaysTotallyRotten = 30,
+        Calories = 340.0,
+        Carbohydrates = 0,
+        Lipids = 15,
+        Proteins = 84.8,
+        CustomEatSound = EatingDeadAnimal,
+        Tags = transferweight,
+    }
+    item PetKittenCalico {
+        Category = Normal,
+        DisplayCategory = Kittens,
         Weight = 1.0,
         DisplayName = Calico kitten,
         Icon = KittenCalico,
         WorldStaticModel = PocketKittenCalico,
-        Type = Food,
-        HungerChange = -10,
-        CantBeFrozen = TRUE,
-        UnhappyChange = 100,
+        Type = Normal,
         Tooltip = Tooltip_KittenFriend,
+        Tags = transferweight,
     }
     item PocketKittenCalico {
         DisplayCategory = Accessory,
@@ -63,16 +100,34 @@ module PocketKitten {
 
     /* Gray Kitten */
     item KittenGray {
-        DisplayCategory = Household,
+        DisplayCategory = Food,
+        Weight = 1.0,
+        DisplayName = stray gray kitten,
+        Icon = KittenGray,
+        WorldStaticModel = PocketKittenGray,
+        Type = Food,
+        CantBeFrozen = TRUE,
+        HungerChange = -10,
+        UnhappyChange = 65,
+        DaysFresh = 0,
+        DaysTotallyRotten = 30,
+        Calories = 340.0,
+        Carbohydrates = 0,
+        Lipids = 15,
+        Proteins = 84.8,
+        CustomEatSound = EatingDeadAnimal,
+        Tags = transferweight,
+    }
+    item PetKittenGray {
+        Category = Normal,
+        DisplayCategory = Kittens,
         Weight = 1.0,
         DisplayName = Gray kitten,
         Icon = KittenGray,
         WorldStaticModel = PocketKittenGray,
-        Type = Food,
-        HungerChange = -10,
-        CantBeFrozen = TRUE,
-        UnhappyChange = 100,
+        Type = Normal,
         Tooltip = Tooltip_KittenFriend,
+        Tags = transferweight,
     }
     item PocketKittenGray {
         DisplayCategory = Accessory,
@@ -92,16 +147,34 @@ module PocketKitten {
 
     /* Gray Striped Kitten */
     item KittenGrayStriped {
-        DisplayCategory = Household,
+        DisplayCategory = Food,
+        Weight = 1.0,
+        DisplayName = Stray gray striped kitten,
+        Icon = KittenGrayStriped,
+        WorldStaticModel = PocketKittenGrayStriped,
+        Type = Food,
+        CantBeFrozen = TRUE,
+        HungerChange = -10,
+        UnhappyChange = 65,
+        DaysFresh = 0,
+        DaysTotallyRotten = 30,
+        Calories = 340.0,
+        Carbohydrates = 0,
+        Lipids = 15,
+        Proteins = 84.8,
+        CustomEatSound = EatingDeadAnimal,
+        Tags = transferweight,
+    }
+    item PetKittenGrayStriped {
+        Category = Normal,
+        DisplayCategory = Kittens,
         Weight = 1.0,
         DisplayName = Gray striped kitten,
         Icon = KittenGrayStriped,
         WorldStaticModel = PocketKittenGrayStriped,
-        Type = Food,
-        HungerChange = -10,
-        CantBeFrozen = TRUE,
-        UnhappyChange = 100,
+        Type = Normal,
         Tooltip = Tooltip_KittenFriend,
+        Tags = transferweight,
     }
     item PocketKittenGrayStriped {
         DisplayCategory = Accessory,
@@ -121,16 +194,34 @@ module PocketKitten {
 
     /* Orange Kitten */
     item KittenOrange {
-        DisplayCategory = Household,
+        DisplayCategory = Food,
+        Weight = 1.0,
+        DisplayName = Stray orange kitten,
+        Icon = KittenOrange,
+        WorldStaticModel = PocketKittenOrange,
+        Type = Food,
+        CantBeFrozen = TRUE,
+        HungerChange = -10,
+        UnhappyChange = 65,
+        DaysFresh = 0,
+        DaysTotallyRotten = 30,
+        Calories = 340.0,
+        Carbohydrates = 0,
+        Lipids = 15,
+        Proteins = 84.8,
+        CustomEatSound = EatingDeadAnimal,
+        Tags = transferweight,
+    }
+    item PetKittenOrange {
+        Category = Normal,
+        DisplayCategory = Kittens,
         Weight = 1.0,
         DisplayName = Orange kitten,
         Icon = KittenOrange,
         WorldStaticModel = PocketKittenOrange,
-        Type = Food,
-        HungerChange = -10,
-        CantBeFrozen = TRUE,
-        UnhappyChange = 100,
+        Type = Normal,
         Tooltip = Tooltip_KittenFriend,
+        Tags = transferweight,
     }
     item PocketKittenOrange {
         DisplayCategory = Accessory,
@@ -150,16 +241,34 @@ module PocketKitten {
 
     /* Tuxedo Kitten */
     item KittenTuxedo {
-        DisplayCategory = Household,
+        DisplayCategory = Food,
+        Weight = 1.0,
+        DisplayName = Stray tuxedo kitten,
+        Icon = KittenTuxedo,
+        WorldStaticModel = PocketKittenTuxedo,
+        Type = Food,
+        CantBeFrozen = TRUE,
+        HungerChange = -10,
+        UnhappyChange = 65,
+        DaysFresh = 0,
+        DaysTotallyRotten = 30,
+        Calories = 340.0,
+        Carbohydrates = 0,
+        Lipids = 15,
+        Proteins = 84.8,
+        CustomEatSound = EatingDeadAnimal,
+        Tags = transferweight,
+    }
+    item PetKittenTuxedo {
+        Category = Normal,
+        DisplayCategory = Kittens,
         Weight = 1.0,
         DisplayName = Tuxedo kitten,
         Icon = KittenTuxedo,
         WorldStaticModel = PocketKittenTuxedo,
-        Type = Food,
-        HungerChange = -10,
-        CantBeFrozen = TRUE,
-        UnhappyChange = 100,
+        Type = Normal,
         Tooltip = Tooltip_KittenFriend,
+        Tags = transferweight,
     }
     item PocketKittenTuxedo {
         DisplayCategory = Accessory,
@@ -179,16 +288,34 @@ module PocketKitten {
 
     /* White Kitten */
     item KittenWhite {
-        DisplayCategory = Household,
+        DisplayCategory = Food,
+        Weight = 1.0,
+        DisplayName = Stray white kitten,
+        Icon = KittenWhite,
+        WorldStaticModel = PocketKittenWhite,
+        Type = Food,
+        CantBeFrozen = TRUE,
+        HungerChange = -10,
+        UnhappyChange = 65,
+        DaysFresh = 0,
+        DaysTotallyRotten = 30,
+        Calories = 340.0,
+        Carbohydrates = 0,
+        Lipids = 15,
+        Proteins = 84.8,
+        CustomEatSound = EatingDeadAnimal,
+        Tags = transferweight,
+    }
+    item PetKittenWhite {
+        Category = Normal,
+        DisplayCategory = Kittens,
         Weight = 1.0,
         DisplayName = White kitten,
         Icon = KittenWhite,
         WorldStaticModel = PocketKittenWhite,
-        Type = Food,
-        HungerChange = -10,
-        CantBeFrozen = TRUE,
-        UnhappyChange = 100,
+        Type = Normal,
         Tooltip = Tooltip_KittenFriend,
+        Tags = transferweight,
     }
     item PocketKittenWhite {
         DisplayCategory = Accessory,

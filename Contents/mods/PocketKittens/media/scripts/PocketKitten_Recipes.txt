@@ -3,9 +3,29 @@ module PocketKitten {
         Base
     }
 
+    /* All Strays */
+    recipe ReleaseStrayKitten {
+        PocketKitten.KittenBlack/PocketKitten.KittenCalico/PocketKitten.KittenGray/PocketKitten.KittenGrayStriped/PocketKitten.KittenOrange/PocketKitten.KittenTuxedo/PocketKitten.KittenWhite,
+        Result: Base.Leash,
+        NeedToBeLearn: False,
+        Time: 30.0,
+        AnimNode: Forage,
+        CanBeDoneFromFloor: True,
+        RemoveResultItem:true,
+    }
+
     /* Black Kitten */
-    recipe CreatePocketKittenBlack {
+    recipe AdoptPocketKittenBlack {
         PocketKitten.KittenBlack,
+        Result: PocketKitten.PetKittenBlack,
+        NeedToBeLearn: False,
+        OnCreate: PocketKitten_KeepWeight,
+        Time: 90.0,
+        AnimNode: BlowTorchFloor,
+        CanBeDoneFromFloor: True,
+    }
+    recipe CreatePocketKittenBlack {
+        PocketKitten.PetKittenBlack,
         Base.DenimStrips/Base.DenimStripsDirty=3,
         keep Needle/SutureNeedle,
         Thread=1,
@@ -14,17 +34,28 @@ module PocketKitten {
         NeedToBeLearn: False,
         SkillRequired: Tailoring=1,
         CanBeDoneFromFloor: TRUE,
+        OnCreate: PocketKitten_KeepWeight,
     }
     recipe RemovePocketKittenBlack {
         PocketKitten.PocketKittenBlack,
-        Result: PocketKitten.KittenBlack,
+        Result: PocketKitten.PetKittenBlack,
         AnimNode:RipSheets,
         Time: 90.0,
+        OnCreate: PocketKitten_KeepWeight,
     }
 
     /* Calico Kitten */
-    recipe CreatePocketKittenCalico {
+    recipe AdoptPocketKittenCalico {
         PocketKitten.KittenCalico,
+        Result: PocketKitten.PetKittenCalico,
+        NeedToBeLearn: False,
+        OnCreate: PocketKitten_KeepWeight,
+        Time: 90.0,
+        AnimNode: BlowTorchFloor,
+        CanBeDoneFromFloor: True,
+    }
+    recipe CreatePocketKittenCalico {
+        PocketKitten.PetKittenCalico,
         Base.DenimStrips/Base.DenimStripsDirty=3,
         keep Needle/SutureNeedle,
         Thread=1,
@@ -33,17 +64,28 @@ module PocketKitten {
         NeedToBeLearn: False,
         SkillRequired: Tailoring=1,
         CanBeDoneFromFloor: TRUE,
+        OnCreate: PocketKitten_KeepWeight,
     }
     recipe RemovePocketKittenCalico {
         PocketKitten.PocketKittenCalico,
-        Result: PocketKitten.KittenCalico,
+        Result: PocketKitten.PetKittenCalico,
         AnimNode:RipSheets,
         Time: 90.0,
+        OnCreate: PocketKitten_KeepWeight,
     }
 
     /* Grey Kitten */
-    recipe CreatePocketKittenGray {
+    recipe AdoptPocketKittenGray {
         PocketKitten.KittenGray,
+        Result: PocketKitten.PetKittenGray,
+        NeedToBeLearn: False,
+        OnCreate: PocketKitten_KeepWeight,
+        Time: 90.0,
+        AnimNode: BlowTorchFloor,
+        CanBeDoneFromFloor: True,
+    }
+    recipe CreatePocketKittenGray {
+        PocketKitten.PetKittenGray,
         Base.DenimStrips/Base.DenimStripsDirty=3,
         keep Needle/SutureNeedle,
         Thread=1,
@@ -52,17 +94,28 @@ module PocketKitten {
         NeedToBeLearn: False,
         SkillRequired: Tailoring=1,
         CanBeDoneFromFloor: TRUE,
+        OnCreate: PocketKitten_KeepWeight,
     }
     recipe RemovePocketKittenGray {
         PocketKitten.PocketKittenGray,
-        Result: PocketKitten.KittenGray,
+        Result: PocketKitten.PetKittenGray,
         AnimNode:RipSheets,
         Time: 90.0,
+        OnCreate: PocketKitten_KeepWeight,
     }
 
     /* Gray Striped Kitten */
-    recipe CreatePocketKittenGrayStriped {
+    recipe AdoptPocketKittenGrayStriped {
         PocketKitten.KittenGrayStriped,
+        Result: PocketKitten.PetKittenGrayStriped,
+        NeedToBeLearn: False,
+        OnCreate: PocketKitten_KeepWeight,
+        Time: 90.0,
+        AnimNode: BlowTorchFloor,
+        CanBeDoneFromFloor: True,
+    }
+    recipe CreatePocketKittenGrayStriped {
+        PocketKitten.PetKittenGrayStriped,
         Base.DenimStrips/Base.DenimStripsDirty=3,
         keep Needle/SutureNeedle,
         Thread=1,
@@ -71,17 +124,28 @@ module PocketKitten {
         NeedToBeLearn: False,
         SkillRequired: Tailoring=1,
         CanBeDoneFromFloor: TRUE,
+        OnCreate: PocketKitten_KeepWeight,
     }
     recipe RemovePocketKittenGrayStriped {
         PocketKitten.PocketKittenGrayStriped,
-        Result: PocketKitten.KittenGrayStriped,
+        Result: PocketKitten.PetKittenGrayStriped,
         AnimNode:RipSheets,
         Time: 90.0,
+        OnCreate: PocketKitten_KeepWeight,
     }
 
     /* Orange Kitten */
-    recipe CreatePocketKittenOrange {
+    recipe AdoptPocketKittenOrange {
         PocketKitten.KittenOrange,
+        Result: PocketKitten.PetKittenOrange,
+        NeedToBeLearn: False,
+        OnCreate: PocketKitten_KeepWeight,
+        Time: 90.0,
+        AnimNode: BlowTorchFloor,
+        CanBeDoneFromFloor: True,
+    }
+    recipe CreatePocketKittenOrange {
+        PocketKitten.PetKittenOrange,
         Base.DenimStrips/Base.DenimStripsDirty=3,
         keep Needle/SutureNeedle,
         Thread=1,
@@ -90,17 +154,28 @@ module PocketKitten {
         NeedToBeLearn: False,
         SkillRequired: Tailoring=1,
         CanBeDoneFromFloor: TRUE,
+        OnCreate: PocketKitten_KeepWeight,
     }
     recipe RemovePocketKittenOrange {
         PocketKitten.PocketKittenOrange,
-        Result: PocketKitten.KittenOrange,
+        Result: PocketKitten.PetKittenOrange,
         AnimNode:RipSheets,
         Time: 90.0,
+        OnCreate: PocketKitten_KeepWeight,
     }
 
     /* Tuxedo Kitten */
-    recipe CreatePocketKittenTuxedo {
+    recipe AdoptPocketKittenTuxedo {
         PocketKitten.KittenTuxedo,
+        Result: PocketKitten.PetKittenTuxedo,
+        NeedToBeLearn: False,
+        OnCreate: PocketKitten_KeepWeight,
+        Time: 90.0,
+        AnimNode: BlowTorchFloor,
+        CanBeDoneFromFloor: True,
+    }
+    recipe CreatePocketKittenTuxedo {
+        PocketKitten.PetKittenTuxedo,
         Base.DenimStrips/Base.DenimStripsDirty=3,
         keep Needle/SutureNeedle,
         Thread=1,
@@ -109,17 +184,29 @@ module PocketKitten {
         NeedToBeLearn: False,
         SkillRequired: Tailoring=1,
         CanBeDoneFromFloor: TRUE,
+        OnCreate: PocketKitten_KeepWeight,
     }
     recipe RemovePocketKittenTuxedo {
         PocketKitten.PocketKittenTuxedo,
-        Result: PocketKitten.KittenTuxedo,
+        Result: PocketKitten.PetKittenTuxedo,
         AnimNode:RipSheets,
         Time: 90.0,
+        OnCreate: PocketKitten_KeepWeight,
     }
 
+
     /* White Kitten */
-    recipe CreatePocketKittenWhite {
+    recipe AdoptPocketKittenWhite {
         PocketKitten.KittenWhite,
+        Result: PocketKitten.PetKittenWhite,
+        NeedToBeLearn: False,
+        OnCreate: PocketKitten_KeepWeight,
+        Time: 90.0,
+        AnimNode: BlowTorchFloor,
+        CanBeDoneFromFloor: True,
+    }
+    recipe CreatePocketKittenWhite {
+        PocketKitten.PetKittenWhite,
         Base.DenimStrips/Base.DenimStripsDirty=3,
         keep Needle/SutureNeedle,
         Thread=1,
@@ -128,11 +215,13 @@ module PocketKitten {
         NeedToBeLearn: False,
         SkillRequired: Tailoring=1,
         CanBeDoneFromFloor: TRUE,
+        OnCreate: PocketKitten_KeepWeight,
     }
     recipe RemovePocketKittenWhite {
         PocketKitten.PocketKittenWhite,
-        Result: PocketKitten.KittenWhite,
+        Result: PocketKitten.PetKittenWhite,
         AnimNode:RipSheets,
         Time: 90.0,
+        OnCreate: PocketKitten_KeepWeight,
     }
 }

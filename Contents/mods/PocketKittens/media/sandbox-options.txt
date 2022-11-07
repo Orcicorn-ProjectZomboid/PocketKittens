@@ -19,3 +19,13 @@ option PocketKitten.ReduceUnhappiness =
     page = PocketKitten,
     translation = PocketKitten_ReduceUnhappyness,
 }
+
+option PocketKitten.ReduceStress = 
+{
+    type = integer,
+    min = 0,
+    max = 100,
+    default = 5,
+    page = PocketKitten,
+    translation = PocketKitten_ReduceStress,
+}

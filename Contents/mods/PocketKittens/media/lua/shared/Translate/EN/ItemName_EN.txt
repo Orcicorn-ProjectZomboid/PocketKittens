@@ -1,4 +1,12 @@
 ItemName_EN = {
+    ItemName_PocketKitten.KittenBlack = "Stray Black Kitten",
+    ItemName_PocketKitten.KittenCalico = "Stray Calico Kitten",
+    ItemName_PocketKitten.KittenGray = "Stray Gray Kitten",
+    ItemName_PocketKitten.KittenGrayStriped = "Stray Striped Gray Kitten",
+    ItemName_PocketKitten.KittenOrange = "Stray Orange Kitten",
+    ItemName_PocketKitten.KittenTuxedo = "Stray Tuxedo Kitten",
+    ItemName_PocketKitten.KittenWhite = "Stray White Kitten",
+
     ItemName_PocketKitten.KittenBlack = "Black Kitten",
     ItemName_PocketKitten.KittenCalico = "Calico Kitten",
     ItemName_PocketKitten.KittenGray = "Gray Kitten",

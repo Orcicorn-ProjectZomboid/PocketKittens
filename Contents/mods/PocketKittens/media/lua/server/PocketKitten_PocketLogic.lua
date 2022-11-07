@@ -7,6 +7,7 @@ local enableReduction = false;      -- Determine if we should reduce boredom
 local pocketkittenitems = {};       -- List of acceptable pocketkittens
 local reduceBoredom = nil;          -- Amount of Boredom reduced each hour when equipped
 local reduceUnhappyness = nil;      -- Amount of Unhappyness reduced each hour when equipped
+local reduceStress = nil;           -- Amount of Stress reduced each hour when equipped (/100)
 
 
 -- --------------------------------------------------------------- --
@@ -73,6 +74,7 @@ end
 local function PocketKitten_OnLogin()
     reduceBoredom = (SandboxVars.PocketKitten.ReduceBoredom or 12);
     reduceUnhappyness = (SandboxVars.PocketKitten.ReduceUnhappyness or 12);
+    reduceStress = (SandboxVars.PocketKitten.ReduceStress or 5);
     PocketKitten_LoadKittenTags();
     enableReduction = PocketKitten_IsKittenEquipped()
     isLoading = false;
@@ -80,26 +82,33 @@ end
 
 
 -- --------------------------------------------------------------- --
---  PocketKitten_ReduceBoredom
+--  PocketKitten_ReduceNegatives
 --      Description:        Reduces boredom/unhappyness on the player
 --                          character if enableReduction is set to true
 --      Trigger             Every In-Game Hour
 --      Params              None
 --      Returns             Nothing
 -- --------------------------------------------------------------- --
-local function PocketKitten_ReduceBoredom()
-    player = getPlayer()
+local function PocketKitten_ReduceNegatives()
+    player = getPlayer();
     if enableReduction == false then return; end
     if player:isAiming() or player:isAttacking() then return; end
+    -- Reduce Boredom/Unhappy/Stress
     bodyDamage = player:getBodyDamage();
+    playerStats = player:getStats();
     bodyDamage:setBoredomLevel(bodyDamage:getBoredomLevel() - reduceBoredom);
     bodyDamage:setUnhappynessLevel(bodyDamage:getUnhappynessLevel() - reduceUnhappyness);
+    playerStats:setStress(playerStats:getStress() - (reduceStress / 100));
+    -- Small chance to make a cat sound effect if not sleeping
+    if not player:isAsleep() and ZombRand(1,10) <= 1 then
+        player:playSound("meow" .. ZombRand(1,5))
+    end
 end
 
 
 -- --------------------------------------------------------------- --
 --  EVENTS ------------------------------------------------------- --
 -- --------------------------------------------------------------- --
-Events.EveryHours.Add(PocketKitten_ReduceBoredom);
+Events.EveryHours.Add(PocketKitten_ReduceNegatives);
 Events.OnClothingUpdated.Add(PocketKitten_ClothingUpdate);
 Events.OnGameTimeLoaded.Add(PocketKitten_OnLogin);
