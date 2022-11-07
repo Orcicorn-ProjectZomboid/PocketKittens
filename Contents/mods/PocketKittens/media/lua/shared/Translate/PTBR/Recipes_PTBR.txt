@@ -1,4 +1,14 @@
 Recipe_PTBR = {
+    Recipe_ReleaseStrayKitten = "Soltar",
+
+    Recipe_AdoptPocketKittenBlack = "Adotar",
+    Recipe_AdoptPocketKittenCalico = "Adotar",
+    Recipe_AdoptPocketKittenGray = "Adotar",
+    Recipe_AdoptPocketKittenGrayStriped = "Adotar",
+    Recipe_AdoptPocketKittenOrange = "Adotar",
+    Recipe_AdoptPocketKittenTuxedo = "Adotar",
+    Recipe_AdoptPocketKittenWhite = "Adotar",
+
     Recipe_CreatePocketKittenBlack = "Colocar Gato no Bolso",
     Recipe_CreatePocketKittenCalico = "Colocar Gato no Bolso",
     Recipe_CreatePocketKittenGray = "Colocar Gato no Bolso",
