@@ -1,4 +1,14 @@
 Recipe_ES = {
+    Recipe_ReleaseStrayKitten = "Lanzamiento",
+
+    Recipe_AdoptPocketKittenBlack = "Adoptar",
+    Recipe_AdoptPocketKittenCalico = "Adoptar",
+    Recipe_AdoptPocketKittenGray = "Adoptar",
+    Recipe_AdoptPocketKittenGrayStriped = "Adoptar",
+    Recipe_AdoptPocketKittenOrange = "Adoptar",
+    Recipe_AdoptPocketKittenTuxedo = "Adoptar",
+    Recipe_AdoptPocketKittenWhite = "Adoptar",
+
     Recipe_CreatePocketKittenBlack = "Colocar Gatito en Bolsillo",
     Recipe_CreatePocketKittenCalico = "Colocar Gatito en Bolsillo",
     Recipe_CreatePocketKittenGray = "Colocar Gatito en Bolsillo",
