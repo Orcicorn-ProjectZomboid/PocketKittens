@@ -1,0 +1,20 @@
+ItemName_PTBR = {
+    ItemName_PocketKitten.KittenBlack = "Gato Preto",
+    ItemName_PocketKitten.KittenCalico = "Gato Chita",
+    ItemName_PocketKitten.KittenGray = "Gato Cinza",
+    ItemName_PocketKitten.KittenGrayStriped = "Gato Listrado",
+    ItemName_PocketKitten.KittenOrange = "Gato Laranja",
+    ItemName_PocketKitten.KittenTuxedo = "Gato Bicolor",
+    ItemName_PocketKitten.KittenWhite = "Gato Branco",
+
+    ItemName_PocketKitten.PocketKittenBlack = "Gato Preto de Bolso",
+    ItemName_PocketKitten.PocketKittenCalico = "Gato Chita de Bolso",
+    ItemName_PocketKitten.PocketKittenGray = "Gato Cinza de Bolso",
+    ItemName_PocketKitten.PocketKittenGrayStriped = "Gato Listrado de Bolso",
+    ItemName_PocketKitten.PocketKittenOrange = "Gato Laranja de Bolso",
+    ItemName_PocketKitten.PocketKittenTuxedo = "Gato Bicolor de Bolso",
+    ItemName_PocketKitten.PocketKittenWhite = "Gato Branco de Bolso",
+
+    ItemName_PocketKitten.TShirtILoveKitties = "Camiseta eu amo gatos",
+    ItemName_PocketKitten.TShirtCatFace = "Camiseta rostinho de gato",
+}
