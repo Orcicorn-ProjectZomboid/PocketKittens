@@ -1,0 +1,5 @@
+Tooltip_ES = {
+    Tooltip_KittenFriend = "Amigos, no comida.",
+    Tooltip_PocketKitten = "Una compan?a de bolsillo<br>Reduce el aburrimiento con el tiempo",
+    Tooltip_ILoveKitties = "Atrap? todos los gatitos y todo lo que consegu? fue ?sta camiseta horrible!",
+}

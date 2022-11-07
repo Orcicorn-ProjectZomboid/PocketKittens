@@ -1,0 +1,7 @@
+Sandbox_ES = {
+    Sandbox_PocketKitten = "Gatitos de Bolsillo",
+    Sandbox_PocketKitten_ReduceBoredom = "Reducci?n de Aburrimiento",
+    Sandbox_PocketKitten_ReduceBoredom_tooltip = "La cantidad de Aburrimiento reducida cada hora cuando los Gatitos est?n equipados. Establecer a 0 para desactivarlo.",
+    Sandbox_PocketKitten_ReduceUnhappyness = "Reducci?n de Infelicidad",
+    Sandbox_PocketKitten_ReduceUnhappyness_tooltip = "La cantidad de Infelicidad reducida cada hora cuando los Gatitos est?n equipados. Establecer a 0 para desactivarlo.",
+}
