@@ -21,13 +21,13 @@ module PocketKitten {
     }
 
     recipe ProclaimYourLoveForKitties {
-        keep PocketKitten.KittenBlack,
-        keep PocketKitten.KittenCalico,
-        keep PocketKitten.KittenGray,
-        keep PocketKitten.KittenGrayStriped,
-        keep PocketKitten.KittenOrange,
-        keep PocketKitten.KittenTuxedo,
-        keep PocketKitten.KittenWhite,
+        keep PocketKitten.PetKittenBlack,
+        keep PocketKitten.PetKittenCalico,
+        keep PocketKitten.PetKittenGray,
+        keep PocketKitten.PetKittenGrayStriped,
+        keep PocketKitten.PetKittenOrange,
+        keep PocketKitten.PetKittenTuxedo,
+        keep PocketKitten.PetKittenWhite,
         keep [Recipe.GetItemTypes.SewingNeedle],
         Base.RippedSheets=3,
         Base.Thread,
