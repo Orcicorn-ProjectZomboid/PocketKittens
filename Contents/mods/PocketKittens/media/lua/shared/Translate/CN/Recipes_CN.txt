@@ -1,4 +1,14 @@
 Recipe_CN = {
+    Recipe_ReleaseStrayKitten = "释放",
+
+    Recipe_AdoptPocketKittenBlack = "采用",
+    Recipe_AdoptPocketKittenCalico = "采用",
+    Recipe_AdoptPocketKittenGray = "采用",
+    Recipe_AdoptPocketKittenGrayStriped = "采用",
+    Recipe_AdoptPocketKittenOrange = "采用",
+    Recipe_AdoptPocketKittenTuxedo = "采用",
+    Recipe_AdoptPocketKittenWhite = "采用",
+
     Recipe_CreatePocketKittenBlack = "将猫咪放入口袋",
     Recipe_CreatePocketKittenCalico = "将猫咪放入口袋",
     Recipe_CreatePocketKittenGray = "将猫咪放入口袋",
