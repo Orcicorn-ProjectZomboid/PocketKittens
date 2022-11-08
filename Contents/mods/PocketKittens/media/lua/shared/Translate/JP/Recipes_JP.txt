@@ -1,13 +1,13 @@
 Recipe_JP = {
-    Recipe_ReleaseStrayKitten = "解放",
+    Recipe_ReleaseStrayKitten = "逃がす",
 
-    Recipe_AdoptPocketKittenBlack = "取り入れる",
-    Recipe_AdoptPocketKittenCalico = "取り入れる",
-    Recipe_AdoptPocketKittenGray = "取り入れる",
-    Recipe_AdoptPocketKittenGrayStriped = "取り入れる",
-    Recipe_AdoptPocketKittenOrange = "取り入れる",
-    Recipe_AdoptPocketKittenTuxedo = "取り入れる",
-    Recipe_AdoptPocketKittenWhite = "取り入れる",
+    Recipe_AdoptPocketKittenBlack = "迎える",
+    Recipe_AdoptPocketKittenCalico = "迎える",
+    Recipe_AdoptPocketKittenGray = "迎える",
+    Recipe_AdoptPocketKittenGrayStriped = "迎える",
+    Recipe_AdoptPocketKittenOrange = "迎える",
+    Recipe_AdoptPocketKittenTuxedo = "迎える",
+    Recipe_AdoptPocketKittenWhite = "迎える",
 
 	Recipe_CreatePocketKittenBlack = "子猫をポケットに入れる",
     Recipe_CreatePocketKittenCalico = "子猫をポケットに入れる",
