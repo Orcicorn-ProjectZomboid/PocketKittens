@@ -37,6 +37,7 @@ end
 --      Returns:            Boolean (True/False if pocket kitten is equipped)
 -- --------------------------------------------------------------- --
 local function PocketKitten_IsKittenEquipped()
+    if getPlayer() == nil then return false; end;
     inventory = getPlayer():getInventory();
     for _, type in pairs(pocketkittenitems) do 
         pocketkitten = inventory:getItemFromType(type)
