@@ -1,11 +1,11 @@
 ItemName_JP = {
-    ItemName_PocketKitten.KittenBlack = "ストレイブラック子猫",
-    ItemName_PocketKitten.KittenCalico = "ストレイキャリコ子猫",
-    ItemName_PocketKitten.KittenGray = "ストレイグレイ子猫",
-    ItemName_PocketKitten.KittenGrayStriped = "ストレイストライプグレー子猫",
-    ItemName_PocketKitten.KittenOrange = "ストレイオレンジ子猫",
-    ItemName_PocketKitten.KittenTuxedo = "野良タキシード子猫",
-    ItemName_PocketKitten.KittenWhite = "ストレイホワイト子猫",
+    ItemName_PocketKitten.KittenBlack = "黒い野良猫",
+    ItemName_PocketKitten.KittenCalico = "野良の三毛猫",
+    ItemName_PocketKitten.KittenGray = "グレーの野良猫,
+    ItemName_PocketKitten.KittenGrayStriped = "しましまの野良猫",
+    ItemName_PocketKitten.KittenOrange = "オレンジの野良猫,
+    ItemName_PocketKitten.KittenTuxedo = "タキシードの野良猫",
+    ItemName_PocketKitten.KittenWhite = "白い野良猫",
 
     ItemName_PocketKitten.PetKittenBlack = "黒い子猫",
     ItemName_PocketKitten.PetKittenCalico = "三毛猫の子猫",
