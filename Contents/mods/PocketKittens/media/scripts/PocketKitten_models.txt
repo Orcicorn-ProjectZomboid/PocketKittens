@@ -34,4 +34,10 @@ module Base {
         texture = WorldItems/pocketkitten_white,
         scale = 0.040,
     }
+
+    model PocketKittenZombie {
+        mesh = WorldItems/pocketkitten,
+        texture = WorldItems/pocketkitten_zombie,
+        scale = 0.040,
+    }
 }

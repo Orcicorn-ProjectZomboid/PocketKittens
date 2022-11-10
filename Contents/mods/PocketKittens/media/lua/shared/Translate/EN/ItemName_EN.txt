@@ -6,6 +6,7 @@ ItemName_EN = {
     ItemName_PocketKitten.KittenOrange = "Stray Orange Kitten",
     ItemName_PocketKitten.KittenTuxedo = "Stray Tuxedo Kitten",
     ItemName_PocketKitten.KittenWhite = "Stray White Kitten",
+    ItemName_PocketKitten.KittenZombie = "Undead Kitten",
 
     ItemName_PocketKitten.PetKittenBlack = "Black Kitten",
     ItemName_PocketKitten.PetKittenCalico = "Calico Kitten",

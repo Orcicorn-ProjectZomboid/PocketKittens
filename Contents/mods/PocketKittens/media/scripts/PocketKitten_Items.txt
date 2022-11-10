@@ -16,7 +16,8 @@ module PocketKitten {
         HungerChange = -10,
         UnhappyChange = 65,
         DaysFresh = 0,
-        DaysTotallyRotten = 30,
+        DaysTotallyRotten = 3
+        ReplaceOnRotten = PocketKitten.KittenZombie,
         Calories = 340.0,
         Carbohydrates = 0,
         Lipids = 15,
@@ -63,7 +64,8 @@ module PocketKitten {
         HungerChange = -10,
         UnhappyChange = 65,
         DaysFresh = 0,
-        DaysTotallyRotten = 30,
+        DaysTotallyRotten = 3
+        ReplaceOnRotten = PocketKitten.KittenZombie,
         Calories = 340.0,
         Carbohydrates = 0,
         Lipids = 15,
@@ -110,7 +112,8 @@ module PocketKitten {
         HungerChange = -10,
         UnhappyChange = 65,
         DaysFresh = 0,
-        DaysTotallyRotten = 30,
+        DaysTotallyRotten = 3
+        ReplaceOnRotten = PocketKitten.KittenZombie,
         Calories = 340.0,
         Carbohydrates = 0,
         Lipids = 15,
@@ -157,7 +160,8 @@ module PocketKitten {
         HungerChange = -10,
         UnhappyChange = 65,
         DaysFresh = 0,
-        DaysTotallyRotten = 30,
+        DaysTotallyRotten = 3
+        ReplaceOnRotten = PocketKitten.KittenZombie,
         Calories = 340.0,
         Carbohydrates = 0,
         Lipids = 15,
@@ -204,7 +208,8 @@ module PocketKitten {
         HungerChange = -10,
         UnhappyChange = 65,
         DaysFresh = 0,
-        DaysTotallyRotten = 30,
+        DaysTotallyRotten = 3
+        ReplaceOnRotten = PocketKitten.KittenZombie,
         Calories = 340.0,
         Carbohydrates = 0,
         Lipids = 15,
@@ -251,7 +256,8 @@ module PocketKitten {
         HungerChange = -10,
         UnhappyChange = 65,
         DaysFresh = 0,
-        DaysTotallyRotten = 30,
+        DaysTotallyRotten = 3
+        ReplaceOnRotten = PocketKitten.KittenZombie,
         Calories = 340.0,
         Carbohydrates = 0,
         Lipids = 15,
@@ -298,7 +304,8 @@ module PocketKitten {
         HungerChange = -10,
         UnhappyChange = 65,
         DaysFresh = 0,
-        DaysTotallyRotten = 30,
+        DaysTotallyRotten = 3
+        ReplaceOnRotten = PocketKitten.KittenZombie,
         Calories = 340.0,
         Carbohydrates = 0,
         Lipids = 15,
@@ -331,5 +338,29 @@ module PocketKitten {
         CanHaveHoles = false,
         Tooltip = Tooltip_PocketKitten,
         Tags = pocketkitten,
+    }
+
+    /* Zombie Kitten (Rotten Cat) */
+    item KittenZombie {
+        Category = Food,
+        DisplayCategory = Food,
+        Weight = 1,
+        DisplayName = Zombie Kitten,
+        Icon = KittenZombie,
+        WorldStaticModel = PocketKittenZombie,
+        Type = Food,
+        CantBeFrozen = TRUE,
+        HungerChange = -1,
+        UnhappyChange = 100,
+        DaysFresh = 0,
+        DaysTotallyRotten = 0,
+        Calories = 42.0,
+        Carbohydrates = 0,
+        Lipids = 1,
+        Proteins = 0,
+        Poison = True,
+		PoisonDetectionLevel = 7,
+		PoisonPower = 120,
+        CustomEatSound = EatingDeadAnimal,
     }
 }
