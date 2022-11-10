@@ -6,6 +6,7 @@ ItemName_JP = {
     ItemName_PocketKitten.KittenOrange = "オレンジの野良猫,
     ItemName_PocketKitten.KittenTuxedo = "タキシードの野良猫",
     ItemName_PocketKitten.KittenWhite = "白い野良猫",
+    ItemName_PocketKitten.KittenZombie = "アンデッド子猫",
 
     ItemName_PocketKitten.PetKittenBlack = "黒い子猫",
     ItemName_PocketKitten.PetKittenCalico = "三毛猫の子猫",

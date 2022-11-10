@@ -6,6 +6,7 @@ ItemName_CN = {
     ItemName_PocketKitten.KittenOrange = "流浪橙色小猫",
     ItemName_PocketKitten.KittenTuxedo = "流浪燕尾服小猫",
     ItemName_PocketKitten.KittenWhite = "流浪的白色小猫",
+    ItemName_PocketKitten.KittenZombie = "不死小猫",
 
     ItemName_PocketKitten.PetKittenBlack = "黑色小猫",
     ItemName_PocketKitten.PetKittenCalico = "三色小猫",

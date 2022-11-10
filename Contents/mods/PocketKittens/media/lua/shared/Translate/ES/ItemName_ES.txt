@@ -6,6 +6,8 @@ ItemName_ES = {
     ItemName_PocketKitten.PetKittenOrange = "Gatito Naranja callejero",
     ItemName_PocketKitten.PetKittenTuxedo = "Gatito Esmoquin callejero",
     ItemName_PocketKitten.PetKittenWhite = "Gatito Blanco callejero",  
+    ItemName_PocketKitten.KittenZombie = "Gatito no muerto",
+    
 
     ItemName_PocketKitten.PetKittenBlack = "Gatito Negro",
     ItemName_PocketKitten.PetKittenCalico = "Gatito Calicó",
