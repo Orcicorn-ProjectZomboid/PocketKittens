@@ -16,7 +16,7 @@ module PocketKitten {
         HungerChange = -10,
         UnhappyChange = 65,
         DaysFresh = 0,
-        DaysTotallyRotten = 3
+        DaysTotallyRotten = 3,
         ReplaceOnRotten = PocketKitten.KittenZombie,
         Calories = 340.0,
         Carbohydrates = 0,
@@ -64,7 +64,7 @@ module PocketKitten {
         HungerChange = -10,
         UnhappyChange = 65,
         DaysFresh = 0,
-        DaysTotallyRotten = 3
+        DaysTotallyRotten = 3,
         ReplaceOnRotten = PocketKitten.KittenZombie,
         Calories = 340.0,
         Carbohydrates = 0,
@@ -112,7 +112,7 @@ module PocketKitten {
         HungerChange = -10,
         UnhappyChange = 65,
         DaysFresh = 0,
-        DaysTotallyRotten = 3
+        DaysTotallyRotten = 3,
         ReplaceOnRotten = PocketKitten.KittenZombie,
         Calories = 340.0,
         Carbohydrates = 0,
@@ -160,7 +160,7 @@ module PocketKitten {
         HungerChange = -10,
         UnhappyChange = 65,
         DaysFresh = 0,
-        DaysTotallyRotten = 3
+        DaysTotallyRotten = 3,
         ReplaceOnRotten = PocketKitten.KittenZombie,
         Calories = 340.0,
         Carbohydrates = 0,
@@ -208,7 +208,7 @@ module PocketKitten {
         HungerChange = -10,
         UnhappyChange = 65,
         DaysFresh = 0,
-        DaysTotallyRotten = 3
+        DaysTotallyRotten = 3,
         ReplaceOnRotten = PocketKitten.KittenZombie,
         Calories = 340.0,
         Carbohydrates = 0,
@@ -256,7 +256,7 @@ module PocketKitten {
         HungerChange = -10,
         UnhappyChange = 65,
         DaysFresh = 0,
-        DaysTotallyRotten = 3
+        DaysTotallyRotten = 3,
         ReplaceOnRotten = PocketKitten.KittenZombie,
         Calories = 340.0,
         Carbohydrates = 0,
@@ -304,7 +304,7 @@ module PocketKitten {
         HungerChange = -10,
         UnhappyChange = 65,
         DaysFresh = 0,
-        DaysTotallyRotten = 3
+        DaysTotallyRotten = 3,
         ReplaceOnRotten = PocketKitten.KittenZombie,
         Calories = 340.0,
         Carbohydrates = 0,
