@@ -1,0 +1,23 @@
+1.1.3.4178 (05 DEC 2022)
+- Adopted Kittens (and pocket kittens) can now be renamed via right-click
+- Names persist through transition in/out of pockets 
+
+1.1.2.4178 Hotfix (13 NOV 2022)
+- Fixed an issue causing strays to not appear in multiplayer since 1.1.1.4178
+
+1.1.1.4178 (10 NOV 2022)
+- Fixed an error on dedicated servers with 41.78
+- Added an undead kitten (strays become undead after 3 days)
+- Added Russian Translations and improved Japenese translations
+
+1.1.0.4177 (07 NOV 2022)
+- Trapped kittens now labelled as strays
+- Stray kittens can be released or adopted
+- Stray kittens have random weight attributes
+- Once a stray kitten is adopted, it can then be placed in a pocket
+- When a kitten is worn, it may randomly meow, purr or hiss
+- Sandbox settings allow for stress to be reduced when a kitten is worn
+- Community translations added for Brazilian Portuguese, Japanese, Simplified Chinese and Spanish
+
+1.0.0.4177 (03 NOV 2022)
+- Initial public release
