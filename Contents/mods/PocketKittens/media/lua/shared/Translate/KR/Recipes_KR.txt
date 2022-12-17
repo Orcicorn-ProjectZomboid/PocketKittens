@@ -1,0 +1,29 @@
+Recipe_KR = {
+    Recipe_ReleaseStrayKitten = "놔주기",
+
+    Recipe_AdoptPocketKittenBlack = "냥줍하기",
+    Recipe_AdoptPocketKittenCalico = "냥줍하기",
+    Recipe_AdoptPocketKittenGray = "냥줍하기",
+    Recipe_AdoptPocketKittenGrayStriped = "냥줍하기",
+    Recipe_AdoptPocketKittenOrange = "냥줍하기",
+    Recipe_AdoptPocketKittenTuxedo = "냥줍하기",
+    Recipe_AdoptPocketKittenWhite = "냥줍하기",
+
+	Recipe_CreatePocketKittenBlack = "주머니 속에 고양이 넣기",
+    Recipe_CreatePocketKittenCalico = "주머니 속에 고양이 넣기",
+    Recipe_CreatePocketKittenGray = "주머니 속에 고양이 넣기",
+    Recipe_CreatePocketKittenGrayStriped = "주머니 속에 고양이 넣기",
+    Recipe_CreatePocketKittenOrange = "주머니 속에 고양이 넣기",
+    Recipe_CreatePocketKittenTuxedo = "주머니 속에 고양이 넣기",
+    Recipe_CreatePocketKittenWhite = "주머니 속에 고양이 넣기",
+
+    Recipe_RemovePocketKittenBlack = "주머니에서 고양이 꺼내기",
+    Recipe_RemovePocketKittenCalico = "주머니에서 고양이 꺼내기",
+    Recipe_RemovePocketKittenGray = "주머니에서 고양이 꺼내기",
+    Recipe_RemovePocketKittenGrayStriped = "주머니에서 고양이 꺼내기",
+    Recipe_RemovePocketKittenOrange = "주머니에서 고양이 꺼내기",
+    Recipe_RemovePocketKittenTuxedo = "주머니에서 고양이 꺼내기",
+    Recipe_RemovePocketKittenWhite = "주머니에서 고양이 꺼내기",
+
+    Recipe_ProclaimYourLoveForKitties = "고양이에게 애정 표현하기",
+}
