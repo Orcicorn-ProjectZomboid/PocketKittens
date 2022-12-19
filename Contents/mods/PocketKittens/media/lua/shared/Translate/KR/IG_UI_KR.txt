@@ -1,0 +1,3 @@
+IGUI_KR = {
+   IGUI_ItemCat_Kittens = "고양이",
+}
