@@ -128,7 +128,7 @@ description=[/table]
 description=
 description=
 description=[h1]Translations[/h1]
-description=Pocket kittens currently supports English, Spanish, Simplified Chinese, Brazilian Portuguese, Japanese and Russian.  You can [url=https://steamcommunity.com/workshop/filedetails/discussion/2883925239/3493131640454925816/]contribute additional translations here[/url]
+description=Pocket kittens currently supports English, Spanish, Simplified Chinese, Brazilian Portuguese, Japanese, Russian and Korean.  You can [url=https://steamcommunity.com/workshop/filedetails/discussion/2883925239/3493131640454925816/]contribute additional translations here[/url]
 description=
 description=
 description=[quote]
