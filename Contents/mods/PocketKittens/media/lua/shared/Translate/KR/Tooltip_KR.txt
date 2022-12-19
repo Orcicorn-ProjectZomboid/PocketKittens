@@ -1,5 +1,0 @@
-Tooltip_KR = {
-    Tooltip_KittenFriend = "친구다, 음식이 아니야",
-    Tooltip_PocketKitten = "주머니만한 친구<br>시간이 지남에 따라 지루함을 줄여줍니다.",
-    Tooltip_ILoveKitties = "나는 모든 고양이들을 잡았고 내가 가진건 형편 없는 셔츠뿐이었다",
-}
