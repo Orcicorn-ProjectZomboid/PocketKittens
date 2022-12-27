@@ -1,0 +1,22 @@
+module Base {
+    sound meow1 {
+        category = PocketKittens, loop = false, is3D = true,
+        clip { file = media/sound/meow1.ogg, distanceMax = 10, volume = 0.8, }
+    }
+    sound meow2 {
+        category = PocketKittens, loop = false, is3D = true,
+        clip { file = media/sound/meow2.ogg, distanceMax = 10, volume = 0.8, }
+    }
+    sound meow3 {
+        category = PocketKittens, loop = false, is3D = true,
+        clip { file = media/sound/meow3.ogg, distanceMax = 10, volume = 0.8, }
+    }
+    sound meow4 {
+        category = PocketKittens, loop = false, is3D = true,
+        clip { file = media/sound/meow4.ogg, distanceMax = 10, volume = 0.8, }
+    }
+    sound meow5 {
+        category = PocketKittens, loop = false, is3D = true,
+        clip { file = media/sound/meow5.ogg, distanceMax = 10, volume = 0.8, }
+    }
+}
