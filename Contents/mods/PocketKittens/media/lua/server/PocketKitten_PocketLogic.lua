@@ -3,7 +3,6 @@
 --  Settings and configurations passed between functions --------- --
 -- --------------------------------------------------------------- --
 local isLoading = true;             -- Determine if script is loading or not
-local enableReduction = false;      -- Determine if we should reduce boredom
 local pocketkittenitems = {};       -- List of acceptable pocketkittens
 local reduceBoredom = nil;          -- Amount of Boredom reduced each hour when equipped
 local reduceUnhappyness = nil;      -- Amount of Unhappyness reduced each hour when equipped
@@ -30,42 +29,6 @@ end
 
 
 -- --------------------------------------------------------------- --
--- PocketKitten_IsKittenEquipped
---      Description:        Determines if a valid pocket kitten is equipped
---      Trigger:            Requested from OnLogin/ClothingUpdate()
---      Params:             None
---      Returns:            Boolean (True/False if pocket kitten is equipped)
--- --------------------------------------------------------------- --
-local function PocketKitten_IsKittenEquipped()
-    if getPlayer() == nil then return false; end;
-    inventory = getPlayer():getInventory();
-    for _, type in pairs(pocketkittenitems) do 
-        pocketkitten = inventory:getItemFromType(type)
-        if pocketkitten ~=nil then
-            if pocketkitten:isEquipped() then
-                return true;
-            end
-        end
-    end
-    return false;
-end
-
-
--- --------------------------------------------------------------- --
---  PocketKitten_ClothingUpdate
---      Description:        When triggered it updates the enableReduction
---                          variable to determine if a pocket kitten is equipped
---      Trigger:            Clothing change
---      Params              None
---      Returns             Nothing
--- --------------------------------------------------------------- --
-local function PocketKitten_ClothingUpdate(player)
-    if isLoading == true then return end;
-    enableReduction = PocketKitten_IsKittenEquipped()
-end
-
-
--- --------------------------------------------------------------- --
 --  PocketKitten_OnLogin
 --      Description:        Sets up Sandbox Variables and pocket items
 --      Trigger             On Game Login/Start
@@ -77,10 +40,36 @@ local function PocketKitten_OnLogin()
     reduceUnhappyness = (SandboxVars.PocketKitten.ReduceUnhappyness or 12);
     reduceStress = (SandboxVars.PocketKitten.ReduceStress or 5);
     PocketKitten_LoadKittenTags();
-    enableReduction = PocketKitten_IsKittenEquipped()
     isLoading = false;
 end
 
+
+-- --------------------------------------------------------------- --
+--  PocketKitten_IsKittenActive
+--      Description:        Checks if a Pocket Kitten is Equipped or Attached
+--      Trigger             OnEveryHour
+--      Params              None
+--      Returns             Boolean
+-- --------------------------------------------------------------- --
+local function PocketKitten_IsKittenActive()
+    if getPlayer() == nil then return false; end
+    inventory = getPlayer():getInventory();
+    for _, type in pairs(pocketkittenitems) do 
+        pocketkitten = inventory:getItemFromType(type)
+        if pocketkitten ~=nil then
+            -- Are you wearing the cat?
+            if pocketkitten:isEquipped() then
+                return true;
+            end
+            -- Or is it attached to your backpack?
+            if pocketkitten:getAttachedSlot() > -1 then 
+                return true;
+            end
+        end
+    end
+    -- Not worn, not attached, so don't bother
+    return false;
+end
 
 -- --------------------------------------------------------------- --
 --  PocketKitten_ReduceNegatives
@@ -91,8 +80,9 @@ end
 --      Returns             Nothing
 -- --------------------------------------------------------------- --
 local function PocketKitten_ReduceNegatives()
+    -- Check if it's safe to reduce values
     player = getPlayer();
-    if enableReduction == false then return; end
+    if PocketKitten_IsKittenActive() == false then return; end;
     if player:isAiming() or player:isAttacking() then return; end
     -- Reduce Boredom/Unhappy/Stress
     bodyDamage = player:getBodyDamage();
@@ -101,7 +91,7 @@ local function PocketKitten_ReduceNegatives()
     bodyDamage:setUnhappynessLevel(bodyDamage:getUnhappynessLevel() - reduceUnhappyness);
     playerStats:setStress(playerStats:getStress() - (reduceStress / 100));
     -- Small chance to make a cat sound effect if not sleeping
-    if not player:isAsleep() and ZombRand(1,10) <= 1 then
+    if not player:isAsleep() and ZombRand(1,1) <= 1 then
         player:playSound("meow" .. ZombRand(1,5))
     end
 end
@@ -111,5 +101,5 @@ end
 --  EVENTS ------------------------------------------------------- --
 -- --------------------------------------------------------------- --
 Events.EveryHours.Add(PocketKitten_ReduceNegatives);
-Events.OnClothingUpdated.Add(PocketKitten_ClothingUpdate);
+-- Events.OnClothingUpdated.Add(PocketKitten_ClothingUpdate);
 Events.OnGameTimeLoaded.Add(PocketKitten_OnLogin);
