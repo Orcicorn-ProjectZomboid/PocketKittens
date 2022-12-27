@@ -30,7 +30,9 @@ ISPocketKittenRename.createMenu = function(player, context, items)
             item = value.items[1];
         end
         if item:getType():contains("PetKitten") or item:getType():contains("PocketKitten") then 
-            context:addOption(getText("ContextMenu_RenameFood"), item, ISPocketKittenRename.onRename, player)
+            if item:isInPlayerInventory() then
+                context:addOption(getText("ContextMenu_RenameFood"), item, ISPocketKittenRename.onRename, player)
+            end
         end
     end
 end
