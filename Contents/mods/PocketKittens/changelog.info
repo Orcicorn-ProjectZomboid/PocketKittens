@@ -1,5 +1,7 @@
-1.1.5.4178 (?? DEC 2022)
-- Proper sound definitions to avoid log spam 
+1.1.5.4178 (27 DEC 2022)
+- Pocket Kittens are now Authentic-Z & Noir compatible. Attaches to Plushie Slots
+- Kitties can only be renamed when in your inventory. Resolves a bug where renames were not saving
+- Added proper sound definitions to avoid generating unnecessary error logs
 
 1.1.4.4178 (19 DEC 2022)
 - Added Korean Translations

@@ -51,6 +51,26 @@ end
 --      Params              None
 --      Returns             Boolean
 -- --------------------------------------------------------------- --
+--[[    NOTE TO SELF:
+            The reason the code is setup like this instead of the previous
+            check on cloghing update is because if you attach an item and
+            then immediately ask the game what is the item index, it'll say -1
+            which means NOT ATTACHED. It remains as -1 until you ask again.  The
+            inverse is true as well if it's attached to slot 10 and you unattach it
+            the game still reports back as slot 10 until the next update.
+
+            So previously i could just watch ClothingUpdate() and set a boolean to determine
+            if the reduction was enabled/disabled and save some query on the Hourly check. However
+            constantly getting false positive/negatives from the getAttachedSlot() API. So now it's
+            just easier to check Slot and Equipped Status every hour. Doesn't seem to error out
+            like ClothingUpdated does.
+
+            I suspect this is because an animation triggers to attach an item but clothing
+            updated triggers before the animation completes. So it's technically still not, or
+            still remains attached, so the slot values are wrong.
+
+            Anyway, That's why we check every hour now instead of just doing event based detection
+]]
 local function PocketKitten_IsKittenActive()
     if getPlayer() == nil then return false; end
     inventory = getPlayer():getInventory();
@@ -61,7 +81,7 @@ local function PocketKitten_IsKittenActive()
             if pocketkitten:isEquipped() then
                 return true;
             end
-            -- Or is it attached to your backpack?
+            -- Or is it attached to your backpack? (AuthenticZ/Noir)
             if pocketkitten:getAttachedSlot() > -1 then 
                 return true;
             end
@@ -91,7 +111,7 @@ local function PocketKitten_ReduceNegatives()
     bodyDamage:setUnhappynessLevel(bodyDamage:getUnhappynessLevel() - reduceUnhappyness);
     playerStats:setStress(playerStats:getStress() - (reduceStress / 100));
     -- Small chance to make a cat sound effect if not sleeping
-    if not player:isAsleep() and ZombRand(1,1) <= 1 then
+    if not player:isAsleep() and ZombRand(1,10) <= 1 then
         player:playSound("meow" .. ZombRand(1,5))
     end
 end
@@ -101,5 +121,4 @@ end
 --  EVENTS ------------------------------------------------------- --
 -- --------------------------------------------------------------- --
 Events.EveryHours.Add(PocketKitten_ReduceNegatives);
--- Events.OnClothingUpdated.Add(PocketKitten_ClothingUpdate);
 Events.OnGameTimeLoaded.Add(PocketKitten_OnLogin);

@@ -46,4 +46,34 @@ module Base {
         texture = WorldItems/pocketkittenplushie_black,
         scale = 0.040,
     }
+    model PocketKittenPlushieCalico {
+        mesh = WorldItems/pocketkittenplushie,
+        texture = WorldItems/pocketkittenplushie_calico,
+        scale = 0.040,
+    }
+    model PocketKittenPlushieGray {
+        mesh = WorldItems/pocketkittenplushie,
+        texture = WorldItems/pocketkittenplushie_gray,
+        scale = 0.040,
+    }
+    model PocketKittenPlushieGrayStriped {
+        mesh = WorldItems/pocketkittenplushie,
+        texture = WorldItems/pocketkittenplushie_graystriped,
+        scale = 0.040,
+    }
+    model PocketKittenPlushieOrange {
+        mesh = WorldItems/pocketkittenplushie,
+        texture = WorldItems/pocketkittenplushie_orange,
+        scale = 0.040,
+    }
+    model PocketKittenPlushieTuxedo {
+        mesh = WorldItems/pocketkittenplushie,
+        texture = WorldItems/pocketkittenplushie_tuxedo,
+        scale = 0.040,
+    }
+    model PocketKittenPlushieWhite {
+        mesh = WorldItems/pocketkittenplushie,
+        texture = WorldItems/pocketkittenplushie_white,
+        scale = 0.040,
+    }
 }

@@ -50,6 +50,8 @@ module PocketKitten {
         CanHaveHoles = false,
         Tooltip = Tooltip_PocketKitten,
         Tags = pocketkitten;transferweight,
+        AttachmentType = SpiffoPlushie,
+        StaticModel = PocketKittenPlushieBlack,
     }
 
     /* Calico Kitten */
@@ -97,7 +99,9 @@ module PocketKitten {
         WorldStaticModel = PocketKittenCalico,
         CanHaveHoles = false,
         Tooltip = Tooltip_PocketKitten,
-        Tags = pocketkitten,
+        Tags = pocketkitten;transferweight,
+        AttachmentType = SpiffoPlushie,
+        StaticModel = PocketKittenPlushieCalico,
     }
 
     /* Gray Kitten */
@@ -145,7 +149,9 @@ module PocketKitten {
         WorldStaticModel = PocketKittenGray,
         CanHaveHoles = false,
         Tooltip = Tooltip_PocketKitten,
-        Tags = pocketkitten,
+        Tags = pocketkitten;transferweight,
+        AttachmentType = SpiffoPlushie,
+        StaticModel = PocketKittenPlushieGray,
     }
 
     /* Gray Striped Kitten */
@@ -193,7 +199,9 @@ module PocketKitten {
         WorldStaticModel = PocketKittenGrayStriped,
         CanHaveHoles = false,
         Tooltip = Tooltip_PocketKitten,
-        Tags = pocketkitten,
+        Tags = pocketkitten;transferweight,
+        AttachmentType = SpiffoPlushie,
+        StaticModel = PocketKittenPlushieGrayStriped,
     }
 
     /* Orange Kitten */
@@ -241,7 +249,9 @@ module PocketKitten {
         WorldStaticModel = PocketKittenOrange,
         CanHaveHoles = false,
         Tooltip = Tooltip_PocketKitten,
-        Tags = pocketkitten,
+        Tags = pocketkitten;transferweight,
+        AttachmentType = SpiffoPlushie,
+        StaticModel = PocketKittenPlushieOrange,
     }
 
     /* Tuxedo Kitten */
@@ -289,7 +299,9 @@ module PocketKitten {
         WorldStaticModel = PocketKittenTuxedo,
         CanHaveHoles = false,
         Tooltip = Tooltip_PocketKitten,
-        Tags = pocketkitten,
+        Tags = pocketkitten;transferweight,
+        AttachmentType = SpiffoPlushie,
+        StaticModel = PocketKittenPlushieTuxedo,
     }
 
     /* White Kitten */
@@ -337,7 +349,9 @@ module PocketKitten {
         WorldStaticModel = PocketKittenWhite,
         CanHaveHoles = false,
         Tooltip = Tooltip_PocketKitten,
-        Tags = pocketkitten,
+        Tags = pocketkitten;transferweight,
+        AttachmentType = SpiffoPlushie,
+        StaticModel = PocketKittenPlushieWhite,
     }
 
     /* Zombie Kitten (Rotten Cat) */
