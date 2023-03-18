@@ -109,7 +109,7 @@ local function PocketKitten_ReduceNegatives()
     playerStats = player:getStats();
     bodyDamage:setBoredomLevel(bodyDamage:getBoredomLevel() - reduceBoredom);
     bodyDamage:setUnhappynessLevel(bodyDamage:getUnhappynessLevel() - reduceUnhappyness);
-    playerStats:setStress(playerStats:getStress() - (reduceStress / 100));
+    playerStats:setStress((playerStats:getStress() - (reduceStress / 100)) - playerStats:getStressFromCigarettes());
     -- Small chance to make a cat sound effect if not sleeping
     if not player:isAsleep() and ZombRand(1,10) <= 1 then
         player:playSound("meow" .. ZombRand(1,5))

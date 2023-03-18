@@ -26,4 +26,12 @@ Recipe_EN = {
     Recipe_RemovePocketKittenWhite = "Take kitten out of pocket",
 
     Recipe_ProclaimYourLoveForKitties = "Proclaim your love for kitties",
+
+    Recipe_PetZombie = "Pet",
+    Recipe_PetStrays = "Pet",
+    Recipe_PetKittens = "Pet",
+    Recipe_PetPocketKittens = "Pet",
+    Recipe_FeedStrays = "Feed",
+    Recipe_FeedKittens = "Feed",
+    Recipe_FeedPocketKittens = "Feed",
 }

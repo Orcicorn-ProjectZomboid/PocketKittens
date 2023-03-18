@@ -1,0 +1,57 @@
+module PocketKitten {
+    imports {
+        Base
+    }
+    
+    recipe PetZombie {
+        keep PocketKitten.KittenZombie,
+        AllowRottenItem:true,
+        Result: PocketKitten.KittenLove,
+        RemoveResultItem: true,
+        Time: 200.0,
+        NeedToBeLearn: False,
+        Sound: purrzombie,
+        AnimNode: VehicleWorkOnTire,
+        Prop2: Source=1,
+        OnCreate: PocketKitten_PetZombie,
+        IsHidden: true,
+    }
+
+    recipe PetStrays {
+        keep PocketKitten.KittenBlack/PocketKitten.KittenCalico/PocketKitten.KittenGray/PocketKitten.KittenGrayStriped/PocketKitten.KittenOrange/PocketKitten.KittenTuxedo/PocketKitten.KittenWhite,
+        Result: PocketKitten.KittenLove,
+        RemoveResultItem: true,
+        Time: 200.0,
+        NeedToBeLearn: False,
+        Sound: purr1,
+        AnimNode: VehicleWorkOnTire,
+        Prop2: Source=1,
+        OnCreate: PocketKitten_PetKitten,
+        IsHidden: true,
+    }  
+
+    recipe PetKittens {
+        keep PocketKitten.PetKittenBlack/PocketKitten.PetKittenCalico/PocketKitten.PetKittenGray/PocketKitten.PetKittenGrayStriped/PocketKitten.PetKittenOrange/PocketKitten.PetKittenTuxedo/PocketKitten.PetKittenWhite,
+        Result: PocketKitten.KittenLove,
+        RemoveResultItem: true,
+        Time: 200.0,
+        NeedToBeLearn: False,
+        Sound: purr2,
+        AnimNode: VehicleWorkOnTire,
+        Prop2: Source=1,
+        OnCreate: PocketKitten_PetKitten,
+        IsHidden: true,
+    }
+
+    recipe PetPocketKittens {
+        keep PocketKitten.PocketKittenBlack/PocketKitten.PocketKittenCalico/PocketKitten.PocketKittenGray/PocketKitten.PocketKittenGrayStriped/PocketKitten.PocketKittenOrange/PocketKitten.PocketKittenTuxedo/PocketKitten.PocketKittenWhite,
+        Result: PocketKitten.KittenLove,
+        RemoveResultItem: true,
+        Time: 200.0,
+        NeedToBeLearn: False,
+        Sound: purr2,
+        AnimNode: ExamineVehicle,
+        OnCreate: PocketKitten_PetKitten,
+        IsHidden: true,
+    }
+}

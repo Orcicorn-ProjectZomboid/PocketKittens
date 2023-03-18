@@ -36,7 +36,6 @@ local function addKittenToTraps(ItemID)
     kitten.baits["Base.DeadBird"] = 20;
     kitten.baits["Base.BaitFish"] = 15;
     kitten.baits["Base.DeadMouse"] = 10;
-    kitten.baits["Base.CatToy"] = 5;
 
     -- Add this kitten to the animal trap definitions (Traps/TrapDefinition)
     table.insert(Animals, kitten);

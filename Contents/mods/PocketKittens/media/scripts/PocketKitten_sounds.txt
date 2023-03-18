@@ -19,4 +19,24 @@ module Base {
         category = PocketKittens, loop = false, is3D = true,
         clip { file = media/sound/meow5.ogg, distanceMax = 10, volume = 0.8, }
     }
+    sound purr1 {
+        category = PocketKittens, loop = false, is3D = true,
+        clip { file = media/sound/purr1.ogg, distanceMax = 0, volume = 0.65, }
+    }
+    sound purr2 {
+        category = PocketKittens, loop = false, is3D = true,
+        clip { file = media/sound/purr2.ogg, distanceMax = 0, volume = 0.55, }
+    }
+    sound purrzombie {
+        category = PocketKittens, loop = false, is3D = true,
+        clip { file = media/sound/purrzombie.ogg, distanceMax = 0, volume = 1.25, }
+    }
+    sound catscream1 {
+        category = PocketKittens, loop = false, is3D = true,
+        clip { file = media/sound/catscream1.ogg, distanceMax = 1, volume = 0.8, }
+    }
+    sound cateating {
+        category = PocketKittens, loop = false, is3D = true,
+        clip { file = media/sound/cateating.ogg, distanceMax = 0, volume = 0.68, }
+    }
 }

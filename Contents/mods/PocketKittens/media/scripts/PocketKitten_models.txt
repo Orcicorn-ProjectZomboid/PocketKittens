@@ -40,6 +40,11 @@ module Base {
         texture = WorldItems/pocketkitten_zombie,
         scale = 0.040,
     }
+    model PocketKittenZombieStatic {
+        mesh = WorldItems/pocketkitten,
+        texture = WorldItems/pocketkitten_zombiestatic,
+        scale = 0.040,
+    }
 
     model PocketKittenPlushieBlack {
         mesh = WorldItems/pocketkittenplushie,

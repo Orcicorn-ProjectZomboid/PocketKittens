@@ -1,0 +1,50 @@
+module PocketKitten {
+    imports {
+        Base
+    }
+
+    recipe FeedStrays {
+        keep PocketKitten.KittenBlack/PocketKitten.KittenCalico/PocketKitten.KittenGray/PocketKitten.KittenGrayStriped/PocketKitten.KittenOrange/PocketKitten.KittenTuxedo/PocketKitten.KittenWhite,
+        Base.CannedMilkOpen/Base.TunaTinOpen/Base.CannedSardinesOpen/Base.FishFillet/Base.DeadMouse=1,
+        Result: PocketKitten.KittenLove,
+        RemoveResultItem: true,
+        Time: 240.0,
+        NeedToBeLearn: False,
+        Sound: cateating,
+        AnimNode: ExamineVehicle,
+        Prop2: Source=2,
+        Prop1: Source=1,
+        OnCreate: PocketKitten_FeedKitten,
+        IsHidden: True,
+    }
+
+    recipe FeedKittens {
+        keep PocketKitten.PetKittenBlack/PocketKitten.PetKittenCalico/PocketKitten.PetKittenGray/PocketKitten.PetKittenGrayStriped/PocketKitten.PetKittenOrange/PocketKitten.PetKittenTuxedo/PocketKitten.PetKittenWhite,
+        Base.CannedMilkOpen/Base.TunaTinOpen/Base.CannedSardinesOpen/Base.FishFillet/Base.DeadMouse=1,
+        Result: PocketKitten.KittenLove,
+        RemoveResultItem: true,
+        Time: 240.0,
+        NeedToBeLearn: False,
+        Sound: cateating,
+        AnimNode: ExamineVehicle,
+        Prop2: Source=2,
+        Prop1: Source=1,
+        OnCreate: PocketKitten_FeedKitten,
+        IsHidden: True,
+    }
+
+    recipe FeedPocketKittens {
+        keep PocketKitten.PocketKittenBlack/PocketKitten.PocketKittenCalico/PocketKitten.PocketKittenGray/PocketKitten.PocketKittenGrayStriped/PocketKitten.PocketKittenOrange/PocketKitten.PocketKittenTuxedo/PocketKitten.PocketKittenWhite,
+        Base.CannedMilkOpen/Base.TunaTinOpen/Base.CannedSardinesOpen/Base.FishFillet/Base.DeadMouse=1,
+        Result: PocketKitten.KittenLove,
+        RemoveResultItem: true,
+        Time: 240.0,
+        NeedToBeLearn: False,
+        Sound: cateating,
+        AnimNode: ExamineVehicle,
+        Prop2: Source=2,
+        OnCreate: PocketKitten_FeedKitten,
+        IsHidden: True,
+    }
+
+}
