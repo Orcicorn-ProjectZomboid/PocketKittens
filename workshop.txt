@@ -133,6 +133,13 @@ description=  [/tr]
 description=[/table]
 description=
 description=
+description=[h1]Optional Addon[/h1]
+description=Though I really did not want to do this, there has been quite a bit of requests for it so I finally caved in and created "[b]Pocket Kittens (Psycho Recipes)[/b]".
+description=This [b]optional addon[/b] will allow you to slaughter stray kittens ([i]and only strays[/i]) and harvest their meat.  The meat can be used in a variety of regular zomboid recipes (stirfry, rice, etc) and even used as bait to trap rats.
+description=You can not slaughter adopted animals because it ends up just being too over powered.  Adopted cats never become rotten or stale, so if you could harvest meat from them, you would find yourself an infinite source of perfect meat.   Therefore only Strays (who can be stale and rotten) can be harvested.
+description=If you don't like it, don't enable it.  I sure won't be.
+description=
+description=
 description=[h1]Translations[/h1]
 description=Pocket kittens currently supports English, Spanish, Simplified Chinese, Brazilian Portuguese, Japanese, Russian, Korean and Thai.  You can [url=https://steamcommunity.com/workshop/filedetails/discussion/2883925239/3493131640454925816/]contribute additional translations here[/url]
 description=
