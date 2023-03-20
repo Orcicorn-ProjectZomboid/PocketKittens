@@ -34,4 +34,7 @@ Recipe_EN = {
     Recipe_FeedStrays = "Feed",
     Recipe_FeedKittens = "Feed",
     Recipe_FeedPocketKittens = "Feed",
+
+    Recipe_ButcherStrayKitten = "Butcher",
+    Recipe_ButcherZombieKitten = "Butcher",
 }

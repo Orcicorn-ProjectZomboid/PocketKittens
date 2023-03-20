@@ -26,4 +26,7 @@ ItemName_EN = {
 
     ItemName_PocketKitten.TShirtILoveKitties = "I Love Kitties T-Shirt",
     ItemName_PocketKitten.TShirtCatFace = "Cat Face T-Shirt",
+
+    ItemName_PocketKitten.StrayCatMeat = "Cat Meat",
+    ItemName_PocketKitten.ZombieCatMeat = "Zombified Cat Meat",
 }
